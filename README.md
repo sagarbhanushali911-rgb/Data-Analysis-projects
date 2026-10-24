@@ -47,7 +47,6 @@ categories, ratings, installs, pricing and user reviews.
 
 ![Screenshot Page 1](GOOGLE%20PLAY%20STORE%20PROJECT%201/Screenshot%20Page%201%20PBI.png)
 ![Screenshot Page 2](GOOGLE%20PLAY%20STORE%20PROJECT%201/Screenshot%20Page%202%20PBI.png)
-![Screenshot Outliers Python 1](GOOGLE%20PLAY%20STORE%20PROJECT%201/Screenshot%20Outliers%20Python%201.png)
 
 
 
