@@ -45,6 +45,11 @@ categories, ratings, installs, pricing and user reviews.
 - More than 93% of apps installed in the dataset are free while only 7% are paid.
 - The pie chart indicates that the Subway surfers is the highest installed app. The family is the highest installed by category.
 
+[GOOGLE PLAY STORE PROJECT 1](Screenshot Page 1 PBI.png)
+[GOOGLE PLAY STORE PROJECT 1](Screenshot Page 2 PBI.png)
+[GOOGLE PLAY STORE PROJECT 1](Screenshot Outliers Python 1 PBI.png)
+
+
 
 ***The analysis is based on the publicly available Google Playstore app dataset***
 
