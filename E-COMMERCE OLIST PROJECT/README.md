@@ -1,54 +1,48 @@
-# Google Playstore Data Analysis
-An end to end data analysis project on Goggle playstore apps, covering data cleaning, exploratory data analysis
-(EDA) and interactive reporting.
+# E-commerce Data Analysis Project (Olist)
+An end to end data analysis project of the Brazilian e-commerce dataset.
+This project explores customer behaviour, sales trends, order patterns and business insights using SQL and Power BI.
 
 
 ## Project Overview
-This project analyses a dataset of google play store applications to uncover insights related to app 
-categories, ratings, installs, pricing and user reviews.
-1. **Data cleaning and exploratory data analysis(EDA)** = performed in python using jupyter notebook
-2. **Visualizations and reporting** = built in Power BI.
+This project analyses the publicly available olist dataset to answer key business questions such as:
+1. Which customers have repeat purchases?
+2. What are the top-selling product categories?
+3. How does delivery time affects customer reviews?
+4. What is average order value based on region?
+5. What is the relation between order value and freight cost?
+6. Which sellers have the highest order delivery times?
 
-## Project Structure
-1. Load the raw Google Playstore dataset in jupyter notebook.
-2. Performed detailed data cleaning and EDA using python.
-3. load the cleaned data set in Power BI for reporting and further analysis.
+The analysis includes:
+1. Data cleaning
+2. Data validation
+3. Exploratory Data Analysis (EDA)
+4. Visualisations and reporting
 
-## Work done
-### Data cleaning (Python)
-- Handled missing values
-- Removed duplicate records
-- Converted data types
-- Standardised categorical columns
-- Created a cleaned dataset for analysis and visualisations
+## Dataset
+The olist dataset consists of multiple tables:
+- 'olist_orders_dataset'
+- 'olist+order_items_dataset'
+- 'olist_customers_dataset'
+- 'olist_products_dataset'
+- 'olist_sellers_dataset'
+- 'olist_geolocation_dataset'
+- product_category_names_translation'
 
-### Exploratory data analysis (Python)
-- Analysed app distributions across categories
-- Examined rating, installs and reviews
-- compared free vs paid apps
-- Identified patterns and outliers
+## Tools and technologies used
+- SQL (data querying, data cleaning, exploratory analysis)
+- Power BI (data visualisation and reporting)
+- GITHUB (punlish project)
 
-### Reporting (Power BI)
-- Built interactive dashboard using Power BI - Power query, Data Aanalysis Expressions (DAX)
-- Visualised key matrices and trends - bar charts, scatter plots using log scale, pie and donut charts
-- Enabled interactive filters to explore the data set
-
-## Tools and technologies
-- ***Python (Jupyter notebook) libraries Pandas, Numpy*** - data cleaning and EDA.
-- ***Python libraries Matplotlib, Seaborn*** - EDA and visualisations.
-- ***Power Query, Data Analysis Expressions(DAX) in Power BI*** - Interactive dashboards and visualisations
-- ***CSV*** - Raw and cleaned data storage
+## Key analysis performed
+- Customer repeat purchase analysis
+- Revenue and order value trends over time
+- Product category performance
+- Seller performance and geographical distribution
 
 ## Key Insights
-- The categories with highest average ratings are - 1. Events, 2. Education, 3. Art and Design.
-- The scatter plot with line and log scale clarifies that installs go up with higher reviews.
-- More than 93% of apps installed in the dataset are free while only 7% are paid.
-- The pie chart indicates that the Subway surfers is the highest installed app. The family is the highest installed by category.
+- The scatter plot on page 2 of screenshot PBI indicates that the freight cost and order value have neutral relation, change in one does not affect the other.
+- The line grapgh on page 1 of screenshot PBI notifies that there is a dip in revenue at the end of the year which needs further investigation.
+- The year 2018 saw the highest percentage of cancellation rate compared to years 2016 and 2017.
+- The analysis points out that average delivery days are around 24 and average gap between actual delivery and estimated delivery is 11.88 days.
 
-![Screenshot Page 1](GOOGLE%20PLAY%20STORE%20PROJECT%201/Screenshot%20Page%201%20PBI.png)
-![Screenshot Page 2](GOOGLE%20PLAY%20STORE%20PROJECT%201/Screenshot%20Page%202%20PBI.png)
-
-
-
-***The analysis is based on the publicly available Google Playstore app dataset***
 
