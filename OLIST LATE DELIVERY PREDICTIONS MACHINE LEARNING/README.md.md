@@ -59,4 +59,3 @@ The model was evaluated with particular attention to recall and F1 score because
 The analysis provides a framework for identifying potential delivery risks, investigating regional logistics challenges and supporting data driven operational decisions.
 ## Conclusion
 This project demonstrates an end to end data analytics and machibe learning workflow, combining SQL based data preparation, Python analysis, predictive modeing and business oriented recommendations.
-
